@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --bg-color: #FF8A8A;
@@ -57,4 +56,8 @@ body {
     width: 100%;
     height: 3rem;
     margin-top: 2rem;
+  }
+  span{
+    front-weight: bold ;
+    color: var(--secundary-color);
   }
