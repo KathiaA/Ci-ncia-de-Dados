@@ -58,6 +58,7 @@ body {
     margin-top: 2rem;
   }
   span{
-    front-weight: bold ;
-    color: var(--secundary-color);
+    font-weight: bold ;
+    color: white;
+    background-color : var(--secundary-color)
   }
