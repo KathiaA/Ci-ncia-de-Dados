@@ -10,7 +10,7 @@ const data = [
   {
     x: nomeDasRedes,
     y: quantidadeUsuarios,
-    type: 'bar'
+    type: 'bar',
     marker: {
        color: getCSS('--primary-color')
     }
@@ -32,7 +32,7 @@ const layout = {
     xaxis: {
         tickfont: tickConfig,
         title: {
-            text: 'nome das redes sociais',
+            text: 'Niveis Educacionais',
             font: {
                 color: getCSS('--secondary-color')
             }
@@ -41,7 +41,7 @@ const layout = {
     yaxis: {
         tickfont: tickConfig,
         title: {
-            text: 'bilhões de usuários ativos',
+            text: 'Pessoas com acesso à Educação',
             font: {
                 color: getCSS('--secondary-color')
             }
@@ -52,7 +52,7 @@ const layout = {
 const grafico = document.createElement('div')
 grafico.className = 'grafico'
 document.getElementById('graficos-container').appendChild(grafico)
-Plotly.newPlot(grafico, data)
+Plotly.newPlot(grafico, data, layout)
 
 }
 
